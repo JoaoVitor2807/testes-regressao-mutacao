@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>AvaliacaoAluno.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/*</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.mycompany.pit;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>// test-compile org.pitest:pitest-maven:mutationCoverage</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class AvaliacaoAluno {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    </span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public enum Situacao { APROVADO, EXAME, REPROVADO, REPROVADO_POR_FALTA }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public static final double MEDIA_APROVACAO = 7.0;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public static final double MEDIA_EXAME = 4.0;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public static final double FREQUENCIA_MINIMA = 75.0;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public double calcularMedia(double p1, double p2) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_17'/>
+17
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_17'>1</a>
+<span>
+
+1. calcularMedia : replaced double return with 0.0d for com/mycompany/pit/AvaliacaoAluno::calcularMedia &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return calcularMedia(p1, p2, 0.0);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public double calcularMedia(double p1, double p2, double bonus) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_21'/>
+21
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_21'>1</a>
+<span>
+
+1. calcularMedia : removed call to com/mycompany/pit/AvaliacaoAluno::validarNota &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        validarNota(p1);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_22'/>
+22
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_22'>1</a>
+<span>
+
+1. calcularMedia : removed call to com/mycompany/pit/AvaliacaoAluno::validarNota &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        validarNota(p2);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_23'>1</a>
+<span>
+
+1. calcularMedia : removed call to com/mycompany/pit/AvaliacaoAluno::validarBonus &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        validarBonus(bonus);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_24'/>
+24
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_24'>4</a>
+<span>
+
+1. calcularMedia : replaced double return with 0.0d for com/mycompany/pit/AvaliacaoAluno::calcularMedia &rarr; KILLED<br/>
+
+2. calcularMedia : Replaced double addition with subtraction &rarr; KILLED<br/>
+
+3. calcularMedia : Replaced double division with multiplication &rarr; KILLED<br/>
+
+4. calcularMedia : Replaced double addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return (p1 + p2)/2 + bonus;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Situacao situacao(double p1, double p2, double frequencia) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_28'/>
+28
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_28'>1</a>
+<span>
+
+1. situacao : replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return situacao(p1, p2, frequencia, 0.0);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Situacao situacao(double p1, double p2, double frequencia, double bonus) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_32'/>
+32
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_32'>1</a>
+<span>
+
+1. situacao : removed call to com/mycompany/pit/AvaliacaoAluno::validarFrequencia &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        validarFrequencia(frequencia);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_33'/>
+33
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_33'>2</a>
+<span>
+
+1. situacao : changed conditional boundary &rarr; KILLED<br/>
+
+2. situacao : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (frequencia &#60; FREQUENCIA_MINIMA) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_34'/>
+34
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_34'>1</a>
+<span>
+
+1. situacao : replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return Situacao.REPROVADO_POR_FALTA;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_36'/>
+36
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_36'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        double media = calcularMedia(p1, p2, bonus);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_37'/>
+37
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_37'>2</a>
+<span>
+
+1. situacao : changed conditional boundary &rarr; KILLED<br/>
+
+2. situacao : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (media &#62;= MEDIA_APROVACAO) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_38'/>
+38
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_38'>1</a>
+<span>
+
+1. situacao : replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return Situacao.APROVADO;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_40'/>
+40
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_40'>2</a>
+<span>
+
+1. situacao : negated conditional &rarr; KILLED<br/>
+
+2. situacao : changed conditional boundary &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (media &#62;= MEDIA_EXAME) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_41'/>
+41
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_41'>1</a>
+<span>
+
+1. situacao : replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return Situacao.EXAME;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_42'/>
+42
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_42'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_43'/>
+43
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_43'>1</a>
+<span>
+
+1. situacao : replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return Situacao.REPROVADO;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_44'/>
+44
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_44'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_45'/>
+45
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_45'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_46'/>
+46
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_46'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private void validarNota(double nota) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_47'/>
+47
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_47'>4</a>
+<span>
+
+1. validarNota : changed conditional boundary &rarr; KILLED<br/>
+
+2. validarNota : negated conditional &rarr; KILLED<br/>
+
+3. validarNota : changed conditional boundary &rarr; KILLED<br/>
+
+4. validarNota : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (nota &#60; 0 || nota &#62; 10) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_48'/>
+48
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_48'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            throw new IllegalArgumentException(&#34;Nota deve estar entre 0 e 10&#34;);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_49'/>
+49
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_49'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_50'/>
+50
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_50'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_51'/>
+51
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_51'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_52'/>
+52
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_52'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private void validarFrequencia(double frequencia) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_53'/>
+53
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_53'>4</a>
+<span>
+
+1. validarFrequencia : changed conditional boundary &rarr; KILLED<br/>
+
+2. validarFrequencia : negated conditional &rarr; KILLED<br/>
+
+3. validarFrequencia : changed conditional boundary &rarr; KILLED<br/>
+
+4. validarFrequencia : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (frequencia &#60; 0 || frequencia &#62; 100) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_54'/>
+54
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_54'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            throw new IllegalArgumentException(&#34;Frequ&#234;ncia inv&#225;lida&#34;);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_55'/>
+55
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_55'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_56'/>
+56
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_56'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_57'/>
+57
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_57'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_58'/>
+58
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_58'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private void validarBonus(double bonus) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_59'/>
+59
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_59'>4</a>
+<span>
+
+1. validarBonus : changed conditional boundary &rarr; KILLED<br/>
+
+2. validarBonus : changed conditional boundary &rarr; KILLED<br/>
+
+3. validarBonus : negated conditional &rarr; KILLED<br/>
+
+4. validarBonus : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (bonus &#60; 0 || bonus &#62; 1) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_60'/>
+60
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_60'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            throw new IllegalArgumentException(&#34;B&#244;nus deve estar entre 0 e 1&#34;);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_61'/>
+61
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_61'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_62'/>
+62
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_62'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_63'/>
+63
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_63'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_17'>17</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_17'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMaximaEhDez()]</span></span> replaced double return with 0.0d for com/mycompany/pit/AvaliacaoAluno::calcularMedia &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_21'>21</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_21'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:p1AcimaDeDezEhInvalida()]</span></span> removed call to com/mycompany/pit/AvaliacaoAluno::validarNota &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_22'>22</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_22'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:p2NegativaEhInvalida()]</span></span> removed call to com/mycompany/pit/AvaliacaoAluno::validarNota &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:bonusLogoAbaixoDeZeroEhInvalido()]</span></span> removed call to com/mycompany/pit/AvaliacaoAluno::validarBonus &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_24'>24</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_24'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> replaced double return with 0.0d for com/mycompany/pit/AvaliacaoAluno::calcularMedia &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> Replaced double addition with subtraction &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()]</span></span> Replaced double division with multiplication &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>calcularMedia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMaximaEhDez()]</span></span> Replaced double addition with subtraction &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_28'>28</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_28'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()]</span></span> replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_32'>32</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_32'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaAcimaDeCemEhInvalida()]</span></span> removed call to com/mycompany/pit/AvaliacaoAluno::validarFrequencia &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_33'>33</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_33'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaExatamente75NaoReprovaPorFalta()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()]</span></span> negated conditional &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_34'>34</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_34'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()]</span></span> replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_37'>37</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_37'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaExatamenteSeteEhAprovado()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()]</span></span> negated conditional &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_38'>38</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_38'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaExatamente75NaoReprovaPorFalta()]</span></span> replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_40'>40</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_40'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()]</span></span> negated conditional &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaExatamenteQuatroEhExame()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_41'>41</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_41'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeSeteEhExame()]</span></span> replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_43'>43</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_43'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>situacao<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()]</span></span> replaced return value with null for com/mycompany/pit/AvaliacaoAluno::situacao &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_47'>47</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_47'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>validarNota<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMaximaEhDez()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>validarNota<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> negated conditional &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>validarNota<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>validarNota<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> negated conditional &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_53'>53</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_53'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>validarFrequencia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>validarFrequencia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()]</span></span> negated conditional &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>validarFrequencia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>validarFrequencia<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()]</span></span> negated conditional &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7d3bcd3_59'>59</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7d3bcd3_59'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>validarBonus<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>validarBonus<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> changed conditional boundary &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>validarBonus<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> negated conditional &rarr; KILLED</span>
+</div> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>validarBonus<br/><b>Killed by : </b>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()]</span></span> negated conditional &rarr; KILLED</span>
+</div> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+
+<li class='mutator'>EMPTY_RETURNS</li>
+
+<li class='mutator'>FALSE_RETURNS</li>
+
+<li class='mutator'>INCREMENTS</li>
+
+<li class='mutator'>INVERT_NEGS</li>
+
+<li class='mutator'>MATH</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+
+<li class='mutator'>NULL_RETURNS</li>
+
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+
+<li class='mutator'>TRUE_RETURNS</li>
+
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaAcimaDeCemEhInvalida()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaNegativaEhInvalida()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaLogoAbaixoDe75ReprovaPorFalta()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaExatamente75NaoReprovaPorFalta()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaExatamenteSeteEhAprovado()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeSeteEhExame()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:bonusLogoAbaixoDeZeroEhInvalido()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaExatamenteQuatroEhExame()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:bonusLogoAcimaDeUmEhInvalido()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:bonusExatamenteZeroEhValido()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:frequenciaZeroECemSaoValidas()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:bonusExatamenteUmEhValido()] (1 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:notasZeroEDezSaoValidas()] (14 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:frequenciaNegativaEhInvalida()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:frequenciaAcimaDeCemEhInvalida()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:frequenciaLogoAbaixoDe75ReprovaPorFalta()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:faltaTemPrioridadeSobreNota()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:frequenciaExatamente75NaoReprovaPorFalta()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeQuatroEhReprovado()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:mediaLogoAbaixoDeSeteEhExame()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:mediaExatamenteSeteEhAprovado()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:mediaExatamenteQuatroEhExame()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:notasZeroEDezSaoValidas()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:frequenciaZeroECemSaoValidas()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaComBonusUmEhUm()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMaximaEhDez()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:mediaMinimaEhZero()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:mediaMinimaEhZero()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:mediaUsaPesos40e60()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:mediaMaximaEhDez()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:p2NegativaEhInvalida()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:p2AcimaDeDezEhInvalida()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:p2AcimaDeDezEhInvalida()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:p2NegativaEhInvalida()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:p1AcimaDeDezEhInvalida()] (0 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:p1AcimaDeDezEhInvalida()] (0 ms)</li><li>com.mycompany.pit.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.AvaliacaoAlunoTest]/[method:p1NegativaEhInvalida()] (1 ms)</li><li>com.mycompany.pit.versoes.AvaliacaoAlunoTest.[engine:junit-jupiter]/[class:com.mycompany.pit.versoes.AvaliacaoAlunoTest]/[method:p1NegativaEhInvalida()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.30.0 <a href='https://github.com/sponsors/hcoles'>support</a>
+
+</body>
+</html>
