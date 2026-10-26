@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Run PIT</actionName>
+            <displayName>Run PIT</displayName>
+            <goals>
+                <goal>test-compile</goal>
+                <goal>org.pitest:pitest-maven:mutationCoverage</goal>
+            </goals>
+        </action>
+    </actions>
